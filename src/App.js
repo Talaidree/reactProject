@@ -1,6 +1,7 @@
 
 import './App.css';
 import Footer from './footer';
+import Login from './Pages/Login/login';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       
       
       <header/>
+      <Login />
       <Footer/>
     </div>
   );
